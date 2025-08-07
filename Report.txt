@@ -1,0 +1,47 @@
+1.	Pasos realizados:  
+
+- Creamos el repositorio ToDoApp-Group1 en GitHub.  
+- Cada miembro creó una rama (estudiante1, estudiante2, estudiante3).  
+- Implementamos funcionalidades y resolvimos conflictos.  
+
+2.	Comandos Git:  
+
+- git clone <URL>: Clonar el repositorio.  
+- git checkout -b estudiante1: Crear rama.  
+- git add <archivo>: Añadir cambios.  
+- git commit -m "mensaje": Hacer commit.  
+- git push origin estudiante1: Empujar rama.  
+- git merge estudiante3: Fusionar rama con conflicto.  
+- git push origin --delete estudiante1: Eliminar rama.  
+
+3.	Conflictos:  
+
+- Conflicto en task_model.py entre is_completed/is_done y mark_as_complete/set_done.  
+- Solución: Combinamos métodos, manteniendo is_completed como atributo principal.  
+
+4.	Contribuciones:  
+
+- Estudiante 1: Añadió mark_as_complete y actualizó main.py.  
+- Estudiante 2: Añadió delete_task y actualizó README.md.  
+- Estudiante 3: Simuló conflicto con set_done/remove_task y lo resolvió.  
+
+5.	Reflexiones:  
+
+- Aprendimos a coordinar ramas y resolver conflictos en equipo.  
+- Git facilita el trabajo colaborativo, pero requiere comunicación clara.  
+- Los Pull Requests ayudan a revisar cambios antes de fusionar. 
+
+6.	Preguntas finales:
+
+1.	¿Cómo coordinaron el trabajo en equipo para evitar conflictos innecesarios?
+Asignamos tareas por rama y comunicamos los cambios antes de hacer merge.
+
+2. ¿Qué aprendieron sobre la resolución de conflictos en Git?
+Aprendimos a identificar, revisar y fusionar manualmente cambios en conflicto.
+
+3. ¿Por qué es importante usar Pull Requests en proyectos colaborativos?
+Permiten revisar, discutir y validar cambios antes de integrarlos al proyecto.
+
+4. ¿Cómo podría mejorarse el flujo de trabajo con herramientas como CI/CD?
+Automatizando pruebas y despliegues para detectar errores rápido y agilizar entregas.
+
